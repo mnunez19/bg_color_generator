@@ -37,7 +37,7 @@
   </style>
 <main class="bgColorApp" style="background-image: linear-gradient();">
   <div class="container">
-    <h1>Random Background Colors</h1>
+    <h1>Bg Color Generator </h1>
       <hr>
       <h2>1</h2>
       <!-- <hr> -->
@@ -84,11 +84,8 @@
       document.querySelector('h2').innerText = colorCount;
       }
     }
-    //colorset echo
-    // function printColors() {
-    //   document.querySelector('.colors').innerHTML = `<span>${colorSet[i]}</span><br>`;
-    // }
-    //main function to change bg color
+    
+    //change colors
     function changeColor() {
       orientation = Math.floor(Math.random() * 360);
       for (let i = 0; i < colorCount; i++) {
